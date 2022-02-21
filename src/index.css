@@ -159,9 +159,15 @@ p {
 /* container */
 .block {
   min-height: 50vh;
+  
 }
 .bcg-black {
-  background: #2c2e31;
+  /* background: #2c2e31; */
+}
+.cartoon {
+  background-image: url(./fake\ user.svg);
+  height: 250px;
+
 }
 
 .container {
@@ -184,7 +190,9 @@ p {
   left: 0;
   width: 100%;
   height: 130px;
-  background: var(--clr-grey-10);
+  /* background: var(--clr-grey-10); */
+  background: linear-gradient(to right, #c33764, #1d2671);
+  opacity: 90%;
   border-top-left-radius: var(--radius);
   border-top-right-radius: var(--radius);
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
